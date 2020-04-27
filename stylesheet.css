@@ -23,12 +23,18 @@ ul{
 	list-style-type: none;
 }
 
+.space{
+	height: 5px;
+	background-color: #F5F5DC;
+}
+
 .kop-wrapper {
 	padding: 0px 0 400px 0;
 	background-image: url(imgs/topheader.png);
 	background-size: cover;
 	color: white;
 	text-align: center;
+	margin-top: 75px;
 }
 
 .kop-wrapper h1 {
@@ -58,9 +64,11 @@ ul{
 }
 
 .top-wrapper{
-	margin-right: 5%;
-	margin-left: 5%;	
 	height:80px;
+	background-color:#F5F5DC;
+	position: fixed;
+	z-index: 10;
+	width: 100%;  
 }
 
 .top-wrapper-left{
@@ -76,7 +84,7 @@ ul{
 }
 
 .top-wrapper-right{
-	float: right;
+	float: right; 
 }
 
 .top-wrapper-right a{
@@ -298,7 +306,6 @@ footer{
     font-size: 20px ;
     margin-left: 24%;
     margin-right: 20%;
-    
 }
 
 .tentangkita img {
